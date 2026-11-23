@@ -1,4 +1,4 @@
-# jonni_stash
+# seeth_stash
 
 Standalone FiveM resource for turf-owned prop stashes using `ox_target` and `ox_inventory`.
 
