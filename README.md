@@ -18,7 +18,7 @@ Standalone FiveM resource for turf-owned prop stashes using `ox_target` and `ox_
 2. Add this after `ox_lib`, `ox_inventory`, `ox_target`, `oxmysql`, and your OP Crime resource:
 
 ```cfg
-ensure jonni_stash
+ensure seeth_stash
 ```
 
 3. Edit `config.lua` if your OP Crime resource uses a different folder name:
