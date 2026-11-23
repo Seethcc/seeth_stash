@@ -14,7 +14,7 @@ Standalone FiveM resource for turf-owned prop stashes using `ox_target` and `ox_
 
 ## Install
 
-1. Copy `jonni_stash` into your server resources folder.
+1. Copy `seeth_stash` into your server resources folder.
 2. Add this after `ox_lib`, `ox_inventory`, `ox_target`, `oxmysql`, and your OP Crime resource:
 
 ```cfg
@@ -59,7 +59,7 @@ Anyone can search/open discovered stashes.
 
 ## Notes
 
-- Stashes persist in the `jonni_stashes` SQL table.
+- Stashes persist in the `seeth_stashes` SQL table.
 - Stashes are opened server-side and registered with `owner`, so other players cannot open the stash by spoofing target data.
 - The database has a unique key on `owner`, enforcing one stash per player.
 - Add or remove targetable props in `Config.AllowedProps`.
